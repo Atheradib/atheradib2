@@ -1,2 +1,0 @@
-# atheradib2
-practice
