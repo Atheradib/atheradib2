@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function setFullName(){
+            var firstname= document.getElementById("firstname");
+            var middlename= document.getElementById("middlename");
+            var lastname= document.getElementById("lastname");
+            var fullname= document.getElementById("fullname");
+            fullname.value=firstname.value+" "+middlename.value+" "+lastname.value;
+        }
+        
+    
+        function ClearFullName(){
+            var clrfname= document.getElementById("fullname")
+            clrfname.value=" "
+        }
+    </script>
+</head>
+<body>
+<h1>Employee Details</h1>
+    <hr>
+    <h3>Personal Info</h3>
+    <br> 
+    <label>First Name</label>
+    <input type="text" id="firstname">
+    <br> <br>
+    <label>Middle Name</label>
+    <input type="text" id="middlename">
+    <br> <br>
+    <label>Last Name</label>
+    <input type="text" id="lastname">
+    <button onclick="setFullName()">Full Name</button>
+    
+    <br> <br> <br>
+    <label>Full Name</label>
+    <input type="text" id="fullname">
+    <button onclick="ClearFullName()">Clear</button>
+    <br>
+    <hr>
+</body>
+</html>
