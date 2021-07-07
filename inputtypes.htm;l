@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+</head>
+<style>
+    form {
+        background-color: teal;
+        width: 400px;
+        padding: 20px;
+        margin: 20px;
+        color: red;
+    }
+</style>
+
+<body>
+    <h2 style="color: red;"> </h2>
+
+        <form>
+            <label>Name: </label>
+            <input type="text">
+        </form>
+        <form>
+            <label>Password</label>
+            <input type="password"  placeholder="Enter password">
+        </form>
+ 
+        <form>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+</form>
+        <form>
+            <label>Hobbies</label>
+            <input type="checkbox" name="eating">Eating
+            <input type="checkbox" name="reading">Reading
+            <input type="checkbox" name="teaching">Teaching
+        </form>
+
+
+        <form>
+            <label>Select KG</label>
+            <input type="number" min="0" max="10" step="1">
+            <label>KG</label>
+            <input type="number" min="25" max="80">kg
+
+        </form>
+
+        <!.....................
+        date
+        datetime-local
+        url
+        email
+        search
+        month
+        color
+        week
+        file........>
+
+        
+
+        
+
+</body>
+
+</html>
