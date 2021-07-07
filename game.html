@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-TicTakToe</title>
+    <script>
+        var player=1;
+        function tickHere(id){
+            var objTic= document.getElementById(id);
+            var objplayer= document.getElementById("player");
+            if (player==1){
+            objTic.style= "color: brown;font-size: 30px;";
+            objplayer.style= "color: brown;font-size: 30px;";
+            objTic.innerHTML="YOU";
+            player=2;
+        } else {
+            objTic.style= "color: brown;font-size: 30px;";
+            objplayer.style= "color: brown;font-size: 30px;";
+            objTic.innerHTML="Me";
+            player=1;
+        }
+        objplayer.innerHTML= "player"+player;
+    }
+    </script>
+</head>
+<body>
+    <h1><span id="player" style="color: teal;font-size: 30px;">Player 1</span></h1>
+    <table border="2px">
+        <tr>
+            <td><span id="11" onclick="tickHere('11')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="12" onclick="tickHere('12')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="13" onclick="tickHere('13')" style="color: blue; font-size: 30px;">00</span></td>
+            
+            </tr>
+        <tr>
+            <td><span id="21" onclick="tickHere('21')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="22" onclick="tickHere('22')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="23" onclick="tickHere('23')" style="color: blue; font-size: 30px;">00</span></td>
+            
+            </tr>
+        <tr>
+            <td><span id="31" onclick="tickHere('31')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="32" onclick="tickHere('32')" style="color: blue; font-size: 30px;">00</span></td>
+            <td><span id="33" onclick="tickHere('33')" style="color: blue; font-size: 30px;">00</span></td>
+            
+            </tr>
+    </table>
+</body>
+</html>
