@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme selecting</title>
+    <script>
+        function setTheme(){
+            var objspan = document.getElementById("s1");
+            var objspan = document.getElementById("s2");
+            objspan.style="color: blue";
+            objspan.style="color: orange";
+
+        }
+
+        function setTheme2(){
+            var objspan = document.getElementById("s1");
+            var objspan = document.getElementById("s2");
+            objspan.style="color: green";
+            objspan.style="color: black";
+        }
+
+        function setTheme3(){
+            var objspan = document.getElementById("s1");
+            var objspan = document.getElementById("s2");
+            objspan.style="color: black";
+            objspan.style="color: purple";
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Theme Challenge</h1>
+    <br>
+    <br>
+  <h1> <span id="s1" style="color: red;">Pickup</span><span id="s2" style="color: blue;">Biz</span>
+    </h1>
+    <br>
+    <button onclick="setTheme()">Theme1</button>
+    <button onclick="setTheme2()">Theme2</button>
+    <button onclick="setTheme3()">Theme3</button>
+</body>
+</html>
