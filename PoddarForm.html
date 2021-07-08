@@ -6,6 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal Information</title>
+    <script>
+        function setStoreValue(){
+            var nameData = document.getElementById("name");
+            var passwordData = document.getElementById("password");
+            var colorData = document.getElementById("colorpicker");
+            var bodyObj = document.getElementById("body");
+
+          sessionStorage.setItem("username", nameData.value);
+          sessionStorage.setItem("userpassword", passwordData.value);
+          sessionStorage.setItem("favColor", colorData.value);
+        bodyObj.style=`background-color:${sessionStorage.getItem("favColor")}`;
+        }
+        function getStoreValue(){
+            var nameData = document.getElementById("name");
+            var passwordData = document.getElementById("password");
+            var bodyObj = document.getElementById("body");
+            
+            var colorData = document.getElementById("colorpicker")
+            nameData.value=  sessionStorage.getItem("username");
+         passwordData.value= sessionStorage.getItem("userpassword");
+         
+         bodyObj.style=`background-color:${sessionStorage.getItem("favColor")}`;
+         colorData.value=sessionStorage.getItem("favColor");
+         var colorData = document.getElementById("colorpicker");
+         console.log(colorData, "---",sessionStorage.getItem("favColor"), bodyObj);
+
+
+        }
+    </script>
 </head>
 <style>
     form {
@@ -32,10 +61,10 @@
     }
 </style>
 
-<body>
+<body id="body">
     <nav>
         <a href="PoddarForm.html">Registration</a>
-        <a href="">Home</a>
+        <a href="home.html">Home</a>
         <a href="figure.html">Product</a>
         <a href="image.html">About Us</a>
         <a href="fieldset.html">Contact Us</a>
@@ -44,18 +73,22 @@
 <h1 style="color:black;">Personal Info</h1>
 <hr color="black">
 <form>
-    <label>Email Id</label>
-    <input type="email">
+    <label>Name</label>
+    <input id="name" type="text">
 </form>
 <form>
     <label>Password</label>
     
-    <input type="password">
+    <input id="password" type="password">
 
 </form>
 <form>
     <label>Confirm Password</label>
-    <input type="password">
+    <input type="password" id="cnfpassword">
+</form>
+<form>
+    <label>Favuorite Color</label>
+    <input type="color" id="colorpicker">
 </form>
 <form>
 <label>Date of Birth</label>
@@ -82,8 +115,11 @@
     <input type="checkbox" name="Coding">Coding
 
 </form>
-      <button>Submit</button> <button>Clear</button>
+      <button onclick="setStoreValue()">Submit</button>
 
 </body>
+<script>
+    getStoreValue();
+</script>
 
 </html>
