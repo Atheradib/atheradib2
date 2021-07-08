@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+</head>
+<style>
+    legend{
+        background-color: brown;
+        padding: 5px;
+    }
+    legend{
+        color: wheat;
+    }
+    marquee{
+        color: tomato;
+        font-size: 100%;
+    }
+</style>
+<body>
+    <marquee behavior="alternate" scrollamount="10%"  direction="">User Information</marquee>
+    <fieldset>
+    <legend>Registration Form</legend>
+    <h1>Employee Details</h1>
+    <hr>
+    <h3>Personal Info</h3>
+    <br> 
+    <label>First Name</label>
+    <input type="text" id="firstname">
+    <br> <br>
+    <labe>Last Name</labe>
+    <input type="text" id="lastname">
+    <button onclick="setFullName()">Full Name</button>
+    
+    <br> <br> <br>
+    <label>Full Name</label>
+    <input type="text" id="fullname">  
+    </fieldset> 
+</body>
+</html>
