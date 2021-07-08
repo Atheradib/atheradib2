@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fieldset</title>
+    <script>
+        function setValue{
+            document.getElementById("body").style=`background-color: ${sessionStorage.getItem("favcolor")}`;
+        }
+    </script>
 </head>
 <style>
     legend{
@@ -33,7 +38,7 @@
         float: right;
     }
 </style>
-<body>
+<body id="body">
     <nav>
         <a href="PoddarForm.html">Registration</a>
         <a href="">Home</a>
@@ -45,12 +50,12 @@
     <marquee behavior="alternate" scrollamount="10%"  direction="">Contact Us</marquee>
     <fieldset>
     <legend>Contact Us</legend>
-    <h1>OurCompany Details</h1>
+    <h1><mark>Company Details</mark></h1>
     <hr>
-    <p>Our Contact No: 012-444555</p> <br>
+   <h3><b>Contact No:<span style="color: blue;"><mark>011-2233445</mark></span></b></h3>
     <br>
-    <p>Our Email Address: technoworld@gmail.com</p><br>
-    Address: Peernagar,Peerburhan,Nanded,(M.s)
+   <h3>Our Email Address: <span style="color: blue;"><mark>technoworld@gmail.com</mark></span></h3><br>
+   <h3><b> Peernagar,Peerburhan,Nanded,(M.s)</b></h3>
     
     </fieldset> 
 </body>
