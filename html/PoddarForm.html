@@ -13,10 +13,10 @@
             var colorData = document.getElementById("colorpicker");
             var bodyObj = document.getElementById("body");
 
-          sessionStorage.setItem("username", nameData.value);
-          sessionStorage.setItem("userpassword", passwordData.value);
-          sessionStorage.setItem("favColor", colorData.value);
-        bodyObj.style=`background-color:${sessionStorage.getItem("favColor")}`;
+          localStorage.setItem("username", nameData.value);
+          localStorage.setItem("userpassword", passwordData.value);
+          localStorage.setItem("favColor", colorData.value);
+        bodyObj.style=`background-color:${localStorage.getItem("favColor")}`;
         }
         function getStoreValue(){
             var nameData = document.getElementById("name");
@@ -24,11 +24,11 @@
             var bodyObj = document.getElementById("body");
             
             var colorData = document.getElementById("colorpicker")
-            nameData.value=  sessionStorage.getItem("username");
-         passwordData.value= sessionStorage.getItem("userpassword");
+            nameData.value=  localStorage.getItem("username");
+         passwordData.value= localStorage.getItem("userpassword");
          
-         bodyObj.style=`background-color:${sessionStorage.getItem("favColor")}`;
-         colorData.value=sessionStorage.getItem("favColor");
+         bodyObj.style=`background-color:${localStorage.getItem("favColor")}`;
+         colorData.value=localStorage.getItem("favColor");
          var colorData = document.getElementById("colorpicker");
          
 
