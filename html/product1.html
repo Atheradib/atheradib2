@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figcaption</title>
     <script>
-        function getStoreValue{
-            document.getElementById("body").style=`background-color:${sessionStorage.getItem("favcolor")}`;
+        function getStoreValue(){
+            document.getElementById("body").style=`background-color:${sessionStorage.getItem("favColor")}`;
         }
     </script>
 </head>
@@ -41,23 +41,27 @@
     <nav>
         <a href="PoddarForm.html">Registration</a>
         <a href="">Home</a>
-        <a href="figure.html">Product</a>
+        <a href="product1.html">Product</a>
         <a href="image.html">About Us</a>
         <a href="fieldset.html">Contact Us</a>
         <input type="text">
     </nav>
     <figure>
-        <img src="./src/Asus.jpg" alt="">
+        <img src="../SRC/Asus.jpg" alt="">
         <figcaption>Asus Laptop</figcaption>
     </figure>
     <figure>
-        <img src="./src/nokia-laptop.jpg" alt="">
+        <img src="../SRC/nokia-laptop.jpg" alt="">
         <figcaption>Nokia Laptop</figcaption>
     </figure>
     <figure>
-        <img src="./src/hp1.jpg" alt="">
+        <img src="../SRC/hp1.jpg" alt="">
         <figcaption>HP Laptop</figcaption>
     </figure>
 
+
 </body>
+<script>
+    getStoreValue();
+</script>
 </html>
