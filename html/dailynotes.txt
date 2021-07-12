@@ -1,0 +1,20 @@
+CSS
+
+-External style
+1)separate style sheet
+2)extension (.css)
+3)<link>
+
+CSS selector
+* univeral 
+-padding
+-margin
+-font-family
+
+.class
+
+# ID
+
+Hexadecimal
+RGB - Red-Green-Blue
+RGBA - Red-Green-Blue-Alpha   Alpharange- 0.0-0.1

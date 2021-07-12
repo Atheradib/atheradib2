@@ -5,4 +5,8 @@ h1{
 .heading{
     background-color: tomato;
     color: white;
+    /* box-shadow: 0 0 10px black; */
+}
+h2{
+    background: linear-gradient(45deg,red,blue,green);
 }
