@@ -27,6 +27,12 @@ Margin           25px   50px   75px    100px
                  top    right  bottom  left
 padding
 
-border
+border   1)solid  2)dotted   3)dashed   4)double    standered range - 1px to 3px
 
 background
+
+1)Background-image:url(path)
+2)Background-color:
+3)Background-attachment:
+4)Background-position:
+5)Background-repeat:
