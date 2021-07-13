@@ -17,4 +17,6 @@ CSS selector
 
 Hexadecimal
 RGB - Red-Green-Blue
-RGBA - Red-Green-Blue-Alpha   Alpharange- 0.0-0.1
+RGBA - Red-Green-Blue-Alpha   Alpha-range- 0.0-0.1
+
+Fat Arrow function
