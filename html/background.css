@@ -1,0 +1,28 @@
+body{
+    background-image: url(..//SRC/scene2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.para1{
+    color: blue;
+    background-color: coral;
+    border-radius: 40px 20px;
+    background-size: cover;
+    text-align: justify;
+    background-position: center;
+    padding: 10px;
+
+}
+
+.para2{
+    color: black;
+    background-color: cornsilk;
+    border-radius: 20px 40px;
+    background-size: cover;
+    text-align: justify;
+    background-position: center;
+    padding: 10px;
+}
+div{
+    margin: 40px;
+}
