@@ -1,0 +1,12 @@
+h1{
+    border: 3px solid black;
+}
+.bdr{
+    border: 2px  dotted blue;
+}
+.bdr1{
+    border: 1px dashed red;
+}
+.bdr2{
+    border: 3px  double deeppink;
+}

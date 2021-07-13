@@ -20,3 +20,13 @@ RGB - Red-Green-Blue
 RGBA - Red-Green-Blue-Alpha   Alpha-range- 0.0-0.1
 
 Fat Arrow function
+
+CSS lecture
+
+Margin           25px   50px   75px    100px
+                 top    right  bottom  left
+padding
+
+border
+
+background
