@@ -1,5 +1,6 @@
 h1{
     border: 3px solid black;
+    padding: 20px;
 }
 .bdr{
     border: 2px  dotted blue;
