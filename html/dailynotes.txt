@@ -31,8 +31,21 @@ border   1)solid  2)dotted   3)dashed   4)double    standered range - 1px to 3px
 
 background
 
-1)Background-image:url(path)
+1)Background-image:url(path) unsplash and pixels.com for images
 2)Background-color:
 3)Background-attachment:
 4)Background-position:
 5)Background-repeat:
+
+
+const num = 5    ;
+const num2 = "5" ;
+
+if(num==num2)----->true
+if(num===num2)----->false   Interview question
+
+** for power
+* for multiplication
+% for Division
+
+Interview Q.   What is hoisting?  only JavaScripting allowed to do hoisting.but Ecma scripting wont allow.
