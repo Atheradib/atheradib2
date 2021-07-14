@@ -1,0 +1,42 @@
+body{
+    background-image: url(../SRC/HVAC.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    background-color: blue;
+    width: 1314px;
+     height: 115px; 
+    padding: 10px;
+    /* float: right; */
+
+}
+img{
+    height: 115px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+a{
+    /* display: block; */
+    text-decoration: none;
+    padding: 30px;
+    font-size: larger;
+    color: black;
+
+}
+a:hover{
+    color: blue;
+    border-radius: 40px;
+    background-color: white;
+    
+}
+input{
+    float: right;
+    margin-top: 40px;
+}
+label{
+    font-size: larger;
+    float: right;
+    margin-top: 40px;
+}
