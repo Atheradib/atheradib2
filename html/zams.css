@@ -1,42 +1,39 @@
 body{
-    background-image: url(../SRC/HVAC.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-nav{
-    background-color: blue;
-    width: 1314px;
-     height: 115px; 
-    padding: 10px;
-    /* float: right; */
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(../SRC/HVAC.jpg);
+        background-repeat: repeat-x;
+        background-size: cover;
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    nav{
+        display: flex;
+        padding: 10PX;
+        justify-content: space-between;
+        align-items: center;
 
-}
-img{
-    height: 115px;
-    width: 100px;
-    vertical-align: middle;
-}
-
-a{
-    /* display: block; */
-    text-decoration: none;
-    padding: 30px;
-    font-size: larger;
-    color: black;
-
-}
-a:hover{
-    color: blue;
-    border-radius: 40px;
-    background-color: white;
+    }
+    .div1{
+        text-align: right;
+    }
+    .div1 ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 18px 15px;
+    position: sticky;
+    top: 0;
     
-}
-input{
-    float: right;
-    margin-top: 40px;
-}
-label{
-    font-size: larger;
-    float: right;
-    margin-top: 40px;
-}
+    }
+    .div1 ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Pacifico', cursive;
+
+    }
+    
+
+
+    
