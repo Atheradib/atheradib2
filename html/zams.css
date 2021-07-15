@@ -4,8 +4,8 @@ body{
         background-size: cover;
     }
     img {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         margin: 10px;
     }
     nav{
@@ -21,7 +21,7 @@ body{
     .div1 ul li{
         list-style: none;
         display: inline-block;
-        padding: 18px 15px;
+        /* padding: 18px 15px; */
     position: sticky;
     top: 0;
     
@@ -35,6 +35,27 @@ body{
     }
     i{
         padding: 10px;
+    }
+    .serv1 a{
+        display: block;
+    }
+    .serv1{
+        display: inline-block;
+    }
+    .servlist1{
+        position: absolute;
+         padding: 10px; 
+        display: none;
+        width: 180px;
+        
+    
+    }
+    .serv1:hover .servlist1{
+        display: block;
+        text-align: center;
+        background: bisque;
+        border-radius: 20px;
+        box-shadow: rgb(161, 145, 125);
     }
     
 

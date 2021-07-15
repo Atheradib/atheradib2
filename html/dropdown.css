@@ -32,6 +32,7 @@ a:hover{
     text-align: center;
     background: bisque;
     border-radius: 20px;
+    box-shadow: rgb(229, 228, 226);
 }
 .drop2 a{
     display: block;
@@ -51,4 +52,5 @@ a:hover{
     text-align: center;
     background: bisque;
     border-radius: 20px;
+    box-shadow: rgb(161, 145, 125);
 }
