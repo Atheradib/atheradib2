@@ -1,0 +1,54 @@
+nav{
+    background-color: chartreuse;
+    padding: 20px;
+}
+a{
+    color: black;
+    margin: 10px;
+    padding: 8px;
+    text-decoration: none;
+    font-size: large;
+}
+a:hover{
+    box-shadow: 0 0 10px;
+}
+
+/*---------------Dropdown list---------------*/
+.drop1 a{
+    display: block;
+}
+.drop1{
+    display: inline-block;
+}
+.dropdownlist{
+    position: absolute;
+    padding: 5px;
+    display: none;
+    width: 180px;
+
+}
+.drop1:hover .dropdownlist{
+    display: block;
+    text-align: center;
+    background: bisque;
+    border-radius: 20px;
+}
+.drop2 a{
+    display: block;
+}
+.drop2{
+    display: inline-block;
+}
+.dropdownlist1{
+    position: absolute;
+    padding: 5px;
+    display: none;
+    width: 180px;
+
+}
+.drop2:hover .dropdownlist1{
+    display: block;
+    text-align: center;
+    background: bisque;
+    border-radius: 20px;
+}
