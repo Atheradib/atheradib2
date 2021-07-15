@@ -4,15 +4,17 @@ body{
         background-size: cover;
     }
     img {
-        height: 50px;
-        width: 50px;
+        height: 110px;
+        width: 110px;
         margin: 10px;
     }
     nav{
         display: flex;
-        padding: 10PX;
+        /* padding: 10PX; */
         justify-content: space-between;
         align-items: center;
+        position: sticky;
+        top: 0;
 
     }
     .div1{
@@ -33,9 +35,21 @@ body{
         font-family: 'STIX Two Math', serif;
 
     }
-    i{
+    .div1:hover ul{
+        box-shadow: 0 0 10px;  
+        border-radius: 20px;
         padding: 10px;
     }
+    .a1:hover{
+        box-shadow: 0 0 9px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    i{
+        padding: 8px;
+    }
+
+    /* ------------services----------- */
     .serv1 a{
         display: block;
     }
@@ -44,19 +58,68 @@ body{
     }
     .servlist1{
         position: absolute;
-         padding: 10px; 
+         padding: 5px; 
         display: none;
-        width: 100px;
+        width: 210px;
         
     
     }
     .serv1:hover .servlist1{
         display: block;
         text-align: center;
-        background: bisque;
+        background: rgba(0,0,0,0.6);
         border-radius: 20px;
-        box-shadow: rgb(161, 145, 125);
     }
+    .serv1:hover .servlist1 a{
+        border-radius: 20px;
+        
+    }
+    .servlist1 a{
+        padding: 10px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    /* --------------product------------ */
+    .prod1 a{
+        display: block;
+    }
+    .prod1{
+        display: inline-block;
+    }
+    .prodlist{
+        position: absolute;
+         padding: 5px; 
+        display: none;
+        width: 210px;
+        
+    
+    }
+
+    
+
+    .prod1:hover .prodlist{
+        display: block;
+        text-align: center;
+        background: rgba(0,0,0,0.6);
+        border-radius: 20px;
+    }
+    .prod1:hover .prodlist a{
+        border-radius: 20px;
+        
+    }
+    .prodlist a{
+        padding: 10px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: large;
+        font-weight: bold;
+        text-align: justify;
+    }
+
     
 
 
