@@ -67,7 +67,7 @@ body{
     .serv1:hover .servlist1{
         display: block;
         text-align: center;
-        background: rgba(0,0,0,0.6);
+        background: rgba(0,0,0,0.5);
         border-radius: 20px;
     }
     .serv1:hover .servlist1 a{
@@ -104,7 +104,7 @@ body{
     .prod1:hover .prodlist{
         display: block;
         text-align: center;
-        background: rgba(0,0,0,0.6);
+        background: rgba(0,0,0,0.5);
         border-radius: 20px;
     }
     .prod1:hover .prodlist a{
