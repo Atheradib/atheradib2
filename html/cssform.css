@@ -4,11 +4,11 @@ body{
 }
 
 .logoform{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.116);
     width: 300px;
-    height: 400px;
+    height: 300px;
     padding: 15px;
-    margin: 150px auto;
+    margin: 150px auto ;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 0 10px black;
@@ -18,8 +18,11 @@ body{
 img{
     height: 150px;
     width: 150px;
-    margin: -90px;
-    padding-bottom: 100px;
+    margin-top: -90px;
+    /* margin: -90px; */
+    /* padding-bottom: 100px; */
+    box-shadow: 0 0 10px darkred;
+    border-radius: 75px;
 }
 input{
     text-align: center;
