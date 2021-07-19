@@ -49,3 +49,36 @@ if(num===num2)----->false   Interview question
 % for Division
 
 Interview Q.   What is hoisting?  only JavaScripting allowed to do hoisting.but Ecma scripting wont allow.
+
+CSS-SESSION
+
+TEXT fORAMATTING          16px=1rem
+-text-align
+-text-indent
+-text-direction
+-word-spacing
+-
+
+www.cdnjs.com for icons
+
+fontawesome.com for icons
+
+googlefonts.com for fonts
+
+Ecma Scripting session
+
+Maths Tutorial ES6 SEARCH IN GOOGLE
+Math library search in google
+
+CSS SESSION
+POSITION TYPES
+1.STATIC
+2.ABSOLUTE
+3.RELATIVE
+4.FIXED
+5.STICKY
+
+flexbox is bydefault responsive
+
+18/7/21
+*BABEL is the compiler of REACT*
